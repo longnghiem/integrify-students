@@ -1,5 +1,5 @@
 # Project summary
-The objective of this project is to build a simple gallery application for Integrify'students.
+The objective of this project is to build a simple gallery application for Integrify' students.
 
 ![page](https://user-images.githubusercontent.com/3630009/43342531-a1cfce9e-91eb-11e8-9b73-195997226dc0.png)
 
@@ -16,6 +16,7 @@ The objective of this project is to build a simple gallery application for Integ
 
 # Getting started
 Please make sure MongoDB has been installed on the machine first!
+
 Clone the project:
 ```
 > git@github.com:longnghiem/integrify-students.git

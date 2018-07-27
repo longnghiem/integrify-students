@@ -1,0 +1,31 @@
+<% include partials/header %>
+
+  <div class="container">
+    <header class="jumbotron">
+      <div class="container">
+        <h1>Welcome to Integrify gallery</h1>
+        <p>Check out our awesome students</p>
+        <div>
+          <a href="/addStudent" class="btn btn-secondary bt-lg"> Add new</a> 
+        </div>
+      </div>
+    </header>
+
+    <div class="row">
+     <% students.forEach(student =>{ %>
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <a href="/student/<%=student._id%>">
+              <img src="<%= student.image %>" alt="<%= student.firstName %>" class="img-thumbnail">
+              <div class="caption">
+                <h4><%= student.firstName %></h4>
+              </div>
+            </a>
+          </div>
+        </div>
+      <% }) %>
+
+    </div>
+
+  </div>    
+<% include partials/footer %>

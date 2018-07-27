@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+
+body {
+  background-color: #FFFDE6;
+  font-family: Spectral;
+  color: #a3361b
+}
+
+
+footer {
+  text-align: center;
+  margin: 2em 0;
+
+}
+
+#info {
+  display: grid;
+  grid-gap: 1em;
+  justify-content: center;
+  width: 70%;
+  margin: 1em auto;
+}
+#info img{
+  max-width: 400px;
+}
+.member_name {
+  text-align: center;
+}
+h3 {
+  display: inline-block;
+}
+/* SKILLS AS LABELS */
+label {
+  background: #FFD8B9;
+  border-radius: 3px 0 0 3px;
+  color: #a3361b;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+}
+label::before {
+  background: #FFFDE6;
+  border-radius: 10px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+  content: '';
+  height: 6px;
+  width: 6px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+label::after {
+  background: #FFFDE6;
+  border-bottom: 13px solid transparent;
+  border-left: 10px solid #FFD8B9;
+  border-top: 13px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* QUOTES */
+blockquote {
+  width: 100%;
+  padding: 30px 50px;
+  position: relative;
+  background: #FFD8B9;
+  font-family: 'Indie Flower';
+}
+blockquote::before, blockquote::after {
+  top: 0;
+  bottom: 0;
+  width: 25px;
+  content: '';
+  position: absolute;
+  background: transparent;
+}
+blockquote::before {
+  right: 100%;
+}
+blockquote::after {
+  left: 100%;
+}
+blockquote p {
+  font-size: 1.5em;
+  color: #a3361b;
+}
+blockquote p::before {
+  top: 0;
+  left: 16px;
+  color: #fff;
+  content: '“';
+  font-size: 3em;
+  position: absolute;
+  text-shadow: -3px 0 #c2c2c2;
+}
+blockquote p::after {
+  right: 16px;
+  color: #fff;
+  content: '”';
+  bottom: -32px;
+  font-size: 3em;
+  position: absolute;
+  text-shadow: 3px 0 #c2c2c2;
+}
+
+.jumbotron {
+  background: #FFD8B9;
+  color: #a3361b
+}
+
+.caption {
+  color: #a3361b;
+}
+
+.caption:hover {
+  color: blue
+}
+
+#delete-button{
+  width: 200px;
+}
+
+/* FORM */
+.new-student {
+  margin: 2em auto;
+  width: 90%
+}

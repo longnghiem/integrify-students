@@ -1,0 +1,33 @@
+<% include partials/header %>
+
+
+<div id="info">
+    <h1><%= result.firstName %> - <%= result.title %></h1>
+    <div>
+      <img src="<%= result.image%> " alt="<%= result.firstName %>">
+    </div>
+  <blockquote class="member_quote"><p><%= result.favoriteQuote %></p></blockquote>
+  <div class="member_whySofterDeveloper">
+    <h3>I love software developer because:</h3>
+    <span><%= result.whySofterDeveloper %></span>
+  </div>
+  <div class="member_longTermVision">
+    <h3>Long term vision:</h3>
+    <span><%= result.longTermVision %></span>
+  </div>
+  <div class="member_motivatesMe">
+    <h3>What motivate me:</h3>
+    <span><%= result.motivatesMe %></span>
+  </div>
+  <div class="member_skills">
+    <% result.skills.forEach(skill => { %>
+      <label class="skill">
+        <%= skill %>
+      </label>
+   <% }) %>
+  </div>
+  <button id='delete-button' data_id='<%= result._id %>'
+          type="button" class="btn btn-danger">Delete student</button>
+</div>
+
+<% include partials/footer %>

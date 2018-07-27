@@ -1,0 +1,45 @@
+<% include partials/header %>
+
+<div class="new-student">
+    <h1>Please insert new student's info</h1>
+    <form action="/index" method="POST">
+      First name:
+      <br>
+      <input type="text" name="firstName">
+      <br> Title:
+      <br>
+      <input type="text" name="title">
+      <br> Why do you want to become a software developer?
+      <br>
+      <input type="text" name="whySofterDeveloper">
+      <br> Favorite quote:
+      <br>
+      <input type="text" name="favoriteQuote">
+      <br> What is your long term vision:
+      <br>
+      <input type="text" name="longTermVision">
+      <br> What motivate you?
+      <br>
+      <input type="text" name="motivatesMe">
+      <br> Image URL:
+      <br>
+      <input type="text" name="image">
+      <br> Skills:
+      <br>
+      <div id="inputs">
+          <input type="text" name="skills">
+          <button type="button" id="add-skill" class="btn btn-secondary">Add more skill</button>
+      </div>
+      <br>
+      <br>
+      <button type="submit" class="btn btn-primary"> Send </button>
+      <button type="reset" class="btn btn-primary"> Reset </button>
+    </form>
+</div>
+
+
+
+
+
+
+<% include partials/footer %>

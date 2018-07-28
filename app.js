@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-const bodyParser = require("body-parser")
+const bodyParser = require("body-parser") //bodyParser is imported in app.js since all the reponses are handle here
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
@@ -35,7 +35,7 @@ app.use('/index', indexRouter);
 app.use('/users', usersRouter);
 app.use('/addStudent', addStudentRouter);
 //do not specify params here, but in router.get
-app.use('/student', studentRouter); 
+app.use('/student', studentRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

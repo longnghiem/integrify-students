@@ -15,8 +15,6 @@ router.get('/', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-  console.log(req.body)
-  let {firstName, title, nationality, favoriteQuote, image, skills} = req.body;
   Student.collection.insert(req.body, err => {
     if (err) return handleError(err)
     else {

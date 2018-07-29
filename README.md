@@ -19,7 +19,7 @@ Please make sure MongoDB has been installed on the machine first!
 
 Clone the project:
 ```
-> git@github.com:longnghiem/integrify-students.git
+> git clone git@github.com:longnghiem/integrify-students.git
 > cd integrify-students
 > npm install
 > node initializeDB.js
@@ -29,4 +29,3 @@ Please check localhost:3009 on browser to view the application.
 
 # License
 This project is licensed under the MIT License.
-

@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
   Student.find({},(err, students) =>{
     if (err) return handleError(err)
     else {
-      res.render('index', { students });
+      res.render('students/index', { students });
     }
   })
 });

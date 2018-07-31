@@ -1,4 +1,4 @@
-<% include partials/header %>
+<% include ../partials/header %>
 
 
 <div id="info">
@@ -26,8 +26,13 @@
       </label>
    <% }) %>
   </div>
+  <div class="comments">
+    <% result.comments.forEach(comment=>{ %>
+      <p> <%= comment.author %> - <%= comment.text %> </p>
+    <% }) %>
+  </div>
   <button id='delete-button' data_id='<%= result._id %>'
           type="button" class="btn btn-danger">Delete student</button>
 </div>
 
-<% include partials/footer %>
+<% include ../partials/footer %>

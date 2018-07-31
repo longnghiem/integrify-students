@@ -132,6 +132,14 @@ blockquote p::after {
   width: 200px;
 }
 
+.new-comment-header{
+  text-align: center;
+  width: 100%
+}
+
+.row {
+  margin-top: 2em; 
+}
 /* FORM */
 .new-student {
   margin: 2em auto;

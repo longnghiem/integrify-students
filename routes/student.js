@@ -7,13 +7,16 @@ const Student = require('../models/student')
 //specifying param
 router.get('/:id', (req, res) => {
   const id = req.params.id;
-  Student.findOne({_id : id}, (err, result) => {
-    if (err) return handleError(err)
-    else {
-      res.render('student', { result })
-    }
+  Student.findOne({_id : id})
+         .populate("comments")
+         .exec((err, result) => {
+            if (err) return handleError(err)
+            else {
+              console.log(result)
+              res.render('students/show', { result })
+            }
+          })
   })
-})
 
 router.delete("/:id", (req, res) => {
   const id = req.params.id;
@@ -24,6 +27,20 @@ router.delete("/:id", (req, res) => {
       res.send({'status': 'Deleted'}) 
     }
   })
+})
+
+router.get("/:id/comments/new", (req,res)=>{
+  const id = req.params.id;
+  Student.findOne({_id:id}, (err, student)=>{
+    if (err) return handleError(err)
+    else {
+      console.log('student', student)
+      res.render('comments/new',{student})
+    }
+  })
+
+
+  
 })
 
 module.exports = router

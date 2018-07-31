@@ -1,5 +1,5 @@
 my_data = [
-  {
+  /* {
     "firstName": "Senad",
     "lastName": "Maljici",
     "title": "Junior Javascript Developer ",
@@ -115,7 +115,7 @@ my_data = [
     "favoriteQuote": "..I can't please you...",
     "joinedOn": "04-12-2017",
     "image": "https://lh3.googleusercontent.com/mRNU2iph8bo5ExsyfjknDQs-ykZsMlV01dah1v1vX_SUITjiE6m7fUqXraDtz3kn4DS8EYVLDCrV7Wz2Mw9fA0ujZoZqh7pGhzNNgT_MJQrB6AauAjEIYcF9SAvcBDr67t8oXRtyS8PKYdp70pUpgJuqHOUHa-PaXKRk5PUA_p5cuP394z6Klx3QhTmZksJEbzRnBt7QaW8fnXvh-SzBLMSqLfL4bFI5cn8JlaSeg3XiZiBJCoio9p1c2c0MpfGiIkinKO94qz0O9u_-Z79m7RKRsABhKc3hGGvHTc1oR0TWR1jx2pkx9mfZ2UTQwK6SYzVsRdaOiZvl-aRFY2jjwlGj31V-Pqb5ef6hUMa7Erw9_3ifIawDcJ64q6js2NwfzWZJ3zJZiVHwyBd2D6URek3j7V9Kri4BunilkJC37zZmmzVCxVa0IS0_QLRt3ssrVk66UOFqMeFqFDkQxmQI9dO8OjheCZoKl4rUuOomj8Mzw8DmlyM9umbfu0NRhuzKZlkpO8Gb1lMtz7_eLhHAvy_HeinxsBllivsI7hwqDxquFyGykXRKglhm5WowNXWRefy48K1TgBJNJDJfQAzO9lnZ0crAsuTHu4UFThs=s250-k-rw-no"
-  },
+  }, */
   {   "firstName":"Abdi",
       "lastName":"Muleta",
       "title":"Developer and Partnerships Lead",

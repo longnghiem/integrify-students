@@ -6,12 +6,16 @@ const studentSchema = new mongoose.Schema({
   nationality: String,
   favoriteQuote: String,
   image: String,
-  whySofterDeveloper: String,
+  whySoftwareDeveloper: String,
   motivatesMe: String,
   longTermVision: String,
-  skills: []
+  skills: [],
+  comments: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Comment"
+  }]
 })
 
 const Student = mongoose.model("Student", studentSchema);
 
-module.exports.Student = Student
+module.exports = Student

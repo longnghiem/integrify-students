@@ -1,8 +1,8 @@
 const express = require("express")
 const router = express.Router()
 
-const model = require('../model-connection')
-const Student = model.Student
+const Student = require('../models/student')
+
 
 //specifying param
 router.get('/:id', (req, res) => {

@@ -11,6 +11,8 @@ const addStudentRouter = require('./routes/addStudent');
 const studentRouter = require('./routes/student');
 
 const app = express();
+const seedDB = require('./seeds')
+seedDB();
 
 // put this on top of others
 app.use(bodyParser.urlencoded({ extended: false }));

@@ -128,7 +128,8 @@ blockquote p::after {
   color: blue
 }
 
-#delete-button{
+#delete-button,
+#new-comment{
   width: 200px;
 }
 
@@ -144,4 +145,9 @@ blockquote p::after {
 .new-student {
   margin: 2em auto;
   width: 90%
+}
+
+.img-thumbnail{
+  height: 250px;
+  object-fit: cover
 }

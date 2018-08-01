@@ -1,5 +1,5 @@
 my_data = [
-  /* {
+  {
     "firstName": "Senad",
     "lastName": "Maljici",
     "title": "Junior Javascript Developer ",
@@ -29,7 +29,7 @@ my_data = [
     "motivatesMe": "",
     "favoriteQuote": "",
     "joinedOn": "04.12.2017",
-    "image": "https://lh3.googleusercontent.com/VSwnElciNAOyiuPmxTn6VvDUB58NIZ0vtlY9aE5F1AvBR3GgwGyngAUOlXb3Xat3BaSD3xKxS7KdVTRq4rMFrgQC7iDryr0xWg7-N99Xlq944A4X1NaxTemD9WDFCD3cg5vZayhmLjE6jT8llXW-RWwprz_01Jx9iXoDgXazSRRyVs2H5eH6LRo3bnisX7BNvcnsiQgPG5Kzf7vePkR6A3MDAIIrjvJQJAsqBle9yLexiROovXlC_lBtbyjkey3rKTzw2Okk3yo1jPDvZCwQ2OwO8ikEX6Mh1MWYlnM7QlWzmK_VH_FCOIQBvtEVG3gtObsjHg5n8JRSjSnF4jVPh49VolbYUfuBRJFO0JNzFC7d8HdoqECsfwAyuEG81T_iOlhF14qP130wzCOL4UoZ92Us9Vc81tPQcPs-Hst-Al_vSrm3w9MvhYbhE-t-1TTxgTka377pgv11ReHODg7Ks8nTENm_-rNWrI_YXTjCg-4XAUYqoVx2B3ZE2Ye6pPmcoRqFhNS2xyKtUfDdS3VD4oRonbTNzrhZ_0gGBz0Dw4XG6MBCGHI47fgq9acHKWCWPkIh3KS9CUku6qVsEMPWL8XpteaMRzeynps2W2Y=s250-k-rw-no"
+    "image": "https://lh3.googleusercontent.com/IH8JeZ2UA4em0K--XWjkGO2vp3Aj3Xp7eQNjkRas5muViEx8xmln_rUensdkyRJhGami8Q-cbM2FZ83dK-K77glTjncnHZhfx8WZNcZAp3GFXfS8a-fz_oQWO4SVeTp-AQsSQu32kGclWo0_kzLWyomOaoMlWcUhT6scVmeavw-svbFvxLB0w4XbIUsBo7TYzEFngJ98Tu7FynxEfzn147VtX_71ST8z1antRixOHQGWEPhQD35fh_7DyELizjncPlZ2T73c4FwKMmgZaAwCZFfNYBxWFqwc24_ifDo2TDDoO-tpN_xRpZbg1m-DU343luBXEng4BGzS7SEpRVeZCsJVwvRnjpRnMYFIznpjViDHxCYPLJpNj_ev9sYLcwWZqE06u0n4pJUw16ojUnUxtlZYi7Uv6-GipwUgRP2P8N9QCGHZ8G25rDX3cjmHaYy4O36d5CMwReoxuX7xeUIZ4o4U7i03In56isBnEPjOhKLYlKBGlmrPtNk0KwXkIKlKRdPlMa_X1yxD2vPxYnLQX_OrqS2tYxcVQRG3G6giYyXYK4IiFTtFgRZIx0h5fafstC0xPzcru8VcfFQemZgP2q2pBJRsS-TegdACztI=w504-h637-no"
   },
   
 
@@ -86,7 +86,7 @@ my_data = [
     "motivatesMe": "solving everyday problems by using technologies",
     "favoriteQuote": "Do not go gentle into the good night",
     "joinedOn": "31.01.2018",
-    "image": "https://lh3.googleusercontent.com/KJ9acrymbtyU9k8pmAOXRRS7cLJ-kWYonWUT48tw-I98H3IuULgL0mQZV2rPvamPC6VZsVkJEH26REEK06kPccSzEnN5GZyCLpzT6Ge3z5rNNTaPE5MeuG5VNEhgOaqWqkiiqFKMEfL_ofvVe9-5hq-Ifku37HSTMrqX-41TGFjeqqKBs-k0o6rcOEtkMozgRTyQkfpMWSdtGP7L-6ePly5DMzXzBQKdOdTSL7YisnV-Q3FgqTmqCEdApntMz0-8Zz8hPcB0NWtQDhDLsQYSmnsFLRq1_Datu9M6lNneWc0x1OHiP1UuiFHdN7JyIcAw1v5ki7OOM9j1WE_WrNHzs_bDs2hp1DJx1QzNFX-2SbXRUQhNLfFXSaOrL07qVvi933UInHclangk5icA3WxKpmoiu90cnG1kpPCd0uCHIZ96-G4dhRgFz6tdXXJYEGKTek3EG-fjrUiWbfqkEavN9s5Picq5ZGZggrVYB-WK2sXMOMdZ8n7sn0Ih4ImwcGuJiyzYezaDWWpzWs5LTnPxn5vHHK1PZYYKY4uYnFb1MupDYPHlc9Nn_v7pHLS2dzpI1x5M6wUvWFK5j1VZypQkBKVKy9Gj_wyXfFZFtHk=s250-k-rw-no"
+    "image": "https://lh3.googleusercontent.com/EJiqaSxtQTVqlpN8y7znODob1jeZJOxgjh7Y2fwQzP25u9Yz4IiGuAc_idkwNc1FANWiGA7e_AOvBwIOozAszCzR9wj4JqvmRC4URrnIaEYP5tCK8Zd1tbEWguK3nCa53WyFuNRNdKq8V0QZNj2Adgz7fomJih-Bdq7T7JG6lsFO48ByuPIthnE_5M2dE_zLbU1gEsh_JzLbs6qkEtm24-Km9WhO8LVPbSBEmVUDQFqW5rtMNf2XBmKHV4-en_z9PE-5YKNQR1vjqNeWZnuadkELokO7LVZJmZE83z7LjSIdIr8VslkGvjKiZeEEqHBLZEAU1ptiWup5id47wfZffQGYgbh6XxURqXaSWG2bxvn2HXksnTK7wa_kb3mQi27InuNZUOpwpw-tQKW2DLM7Oezl7MvpIiDDyNusO1Y0nMsk12jdltVmLaE7FwWFxDhC9Mroy8db8D1NLwO-m0IlDPG-FGOBpVYKIpzdWff4MBCX1ScdQzeg6y5B_pWSDrw9uBAIoINUP9x2PQLStro4Oxu7QhKMiVM4s5d6vqLxMWqMuKCgbiuEFmkTqOGDv27_QJQXZdxlScZZlNWTlytM2H_9xiBqjcxxJyEuwvU=w569-h637-no"
   },
   {
     "firstName": "Olujuwon Ayoseyi",
@@ -114,8 +114,8 @@ my_data = [
     "longTermVision": "Entrepreneur",
     "favoriteQuote": "..I can't please you...",
     "joinedOn": "04-12-2017",
-    "image": "https://lh3.googleusercontent.com/mRNU2iph8bo5ExsyfjknDQs-ykZsMlV01dah1v1vX_SUITjiE6m7fUqXraDtz3kn4DS8EYVLDCrV7Wz2Mw9fA0ujZoZqh7pGhzNNgT_MJQrB6AauAjEIYcF9SAvcBDr67t8oXRtyS8PKYdp70pUpgJuqHOUHa-PaXKRk5PUA_p5cuP394z6Klx3QhTmZksJEbzRnBt7QaW8fnXvh-SzBLMSqLfL4bFI5cn8JlaSeg3XiZiBJCoio9p1c2c0MpfGiIkinKO94qz0O9u_-Z79m7RKRsABhKc3hGGvHTc1oR0TWR1jx2pkx9mfZ2UTQwK6SYzVsRdaOiZvl-aRFY2jjwlGj31V-Pqb5ef6hUMa7Erw9_3ifIawDcJ64q6js2NwfzWZJ3zJZiVHwyBd2D6URek3j7V9Kri4BunilkJC37zZmmzVCxVa0IS0_QLRt3ssrVk66UOFqMeFqFDkQxmQI9dO8OjheCZoKl4rUuOomj8Mzw8DmlyM9umbfu0NRhuzKZlkpO8Gb1lMtz7_eLhHAvy_HeinxsBllivsI7hwqDxquFyGykXRKglhm5WowNXWRefy48K1TgBJNJDJfQAzO9lnZ0crAsuTHu4UFThs=s250-k-rw-no"
-  }, */
+    "image": "https://lh3.googleusercontent.com/gNTFFH5CCQwDo9cnTRnpfIOB1ZK_YPiCk1ukHTkU_aGwZZzlf5Ip8ypsRXp-MS3JS6lacdxKJA9f51ozpBTFoXYsajuf1PX1K6VSIIbbBpJcIYuDrNCg0vixGY1wVDAM5psLS9CbI7d0afE55NTwMUS-9zdLjM6FZrN3Nr5tB5QuHUYj4iop6P2syIMfZ11B3LkYuuVXYEBu4MnLnBV_W38JvTBF2WZMg0bt2bRRIZ812K9HJQ-mqodHIxfJQvs1wBIVyouV5MWFQtGkJKE8Mfw09iRl7U9ICqBMYGXZe_N0nOef8iq2fz2i1RVj8JL8yuftfvCR5EFcaF8DvLMpAQB14d8_EW5X4ff_LubgWHm-JG6XuAODqdtOg4pmZZb47O_sG34hux6JoQ7yjPmH2E84NQS45IuSAZkaowupz8Fo0qPEpsGX9yNhgXl339YgUOL8OW09xBaT0nC6ClWF3EI_0-eBXK_7wTjzxP-FPC1pg0inH32_b8G_jiNAQH45JZlnissN1aqaofHljtEv0LUMNTba_-1mCKD11lBtiUCPAhJE4Rfh8OgKWe6kfl_-stls3vLp1b-WcELpDHVjKlT52P3s7zfmKRbmNqA=w578-h637-no"
+  },
   {   "firstName":"Abdi",
       "lastName":"Muleta",
       "title":"Developer and Partnerships Lead",
@@ -144,7 +144,7 @@ my_data = [
   "favoriteQuote":
     "Life is your biggest enemy, to defeat it you have to live it.",
   "joinedOn": "16.4.2018",
-  "image": "https://lh3.googleusercontent.com/vh9TIOgaMc1bhwV9Wv_8XLYqm-clXunH9CUAo8YpTPNP6xalDhIkWQRhFCSOZgYc8GC3u7WX3Sn-oe68jTuYnZxc5X1LgdiuI1XYDyTPDFYhuwkSrUB7LnX8-AVJZvD9VeaVIzRHI5CgGl6om_bV0BOvo71UC8GLESj3OVl1r0g59VRbD8Uod1m6FUwfWZ6cxoqPFJw3E4KjjYyXtVu5jdo4Okz6fjR6G8jNQs5WqOwqPY--qiCcALXta9ZrQlSPMknkccsp-eLWC6gJX7ktH2ry5U7UK0le8BrDPw6Tn8FX89e-pFmkab0lOSNVApeqy-gs8YDb9GPZNRDzO1K2xkvCJ_Kszgm02L4ryhKdCzM_eKi09WfYlCUkzHwjvsMmSqKS4OkxNPK0tedPKhP49TCXmzckDapeeh7-mwSirPS0fknd3Uf3vUsYO5olRsbnyQb46jHkhwvUBmXQQPt1096aQbM-nAQTS_0QrkoPUglwop4syFUvW8tRSEAO-v9uCIQar1mW0noFBJba0ZP0RNU1uk6yMVLPKATKR3F0uMOODAoomLFomhP5fBggX6LmuvFFhxO4VJce6SrM1d4hTKebwjj00pZa2tb3shM=s250-k-rw-no"
+  "image": "https://lh3.googleusercontent.com/PegFj0Gyr5Lde01DqwUBFLN913Y2Hv__oy8pDqeppMLarVwtPo34Bp9DMVolhINShJuxqUf5qjGAq3EgANIwoSIbpnoO7FWQ2Uu9jmNVXb_6Iyir8roYhY3Asw2_SQ27NxUJQzcQbFb1c4Q-pX9AyizhwaTSpKJE7sx4S-2_pcvbo-28-H78b3cSEZjU5nzAIL4kHLNEWSXo_Br6Y1e6cC8WrYVOfxmfimR6T8Zaw77Uqq16qOiueuPLtUm4NFWMuY8XCjSqc4MAYpVienPWGU1BUBRBk0Da0Ax1HizPH7P1GRSz1u-wVYJo0g2PMx8eavMO8pZ6gAR9G-S3yoNrC0PVkqvL4iym_DBIUS7C8M3GCeh_bA7t2-OvncA7WSHdazZRs0av-V2mkrfDYXYZlHnJIPxGcez9xfm4uWXqUAvnmkIcSxQROmpYS3paCkzynP6j5Gx3O-h2jhPjgCpAzksWvRtDtYA9e5fuIhWM2kn5tTqd97MKTf_U2Swl-zlCWPeeQAT-usqtpVUQPPT41gnxzxRy0naEbmU2TImvDy09ykSCWG5J7v0vCBqKenA7pabFbynZAiufZlygukNytRSbozN9gI6oOPve6Aw=w456-h551-no"
 },
 
 {
@@ -160,7 +160,7 @@ my_data = [
   "motivatesMe": "FLOSS",
   "favoriteQuote": "He who never hopes, never despair!",
   "joinedOn": "16.4.2018",
-  "image": "https://lh3.googleusercontent.com/XIfp9pk4YvolE9hFoU3xJ33vGmvn3zBvZYGGw4bmTofUYNdyoFd-wmZtghE3kL_FPybil4970d5cwUaDH8yGPZX4X41ns9rAch8rTiG7hdnPpyxCbv8LsWDxxEYDWG4XffZWMjRPsFZXBWo5Z0LSXUmwwQvp3rscl-sCoueT9MhQTp3F368XzNV_MMV1R373pIpl-j21dws6rtOEUEU_M9-_roKfbQQE91yj7XKMbZqdYR7UioHgpMmI7dGBGmZDViJu0oI-tLJ9DVl0hvlaSyCP-CbfzPWyPwXbfTVNeS58oK_MZcO8GXkZhfjouHCjWBfSQreJVdsBRQgTmV_1ne2TLCZB1eW2hjkPwfhGgHs9Cf8IFYnWr0b3xKDEVF2WL9a7GVn5h9tSBtIFbUkloICxoLK_djUa0Hhm5CsmJNwTlUVKZV7oRB_JNCrbyxDv5sM1QW9IyLD7W6Gt5P2_nzPWEf0-ZKoitXK-ZzVzdjkXbTJPpWTjy88ZYv043O9kS3oRx-J1U6fnfjhNTFUHWY_Fjxkhq3U9feZy4qlHERjY_wimFkVDs0cUYZBz9C_Cs6GFbf0HsTnz_2JT786aOs9wVxlBZ-eUxLhW1KA=s250-k-rw-no"
+  "image": "https://lh3.googleusercontent.com/AAnJeVr4Q_zp2YHbj13me2GmdyGQkkWcyZ5RJhg1rD6ieUurQeha6VML-66Tyr-K4ym14MA4XXmSv2kot_oNBA5bmpk5iBauCKB1XaHYR8SEX2Bv8LIBmeZhnBQJC-BIPHg_9xTwUSaYXFZN3Rg8SmFFtXGlKQ55MPtXWUEq2Rgz43ed2Yl0zASDiYj9ucCPX0yJ36U-rg3Wv4A5ADwQwc4FzlNewI1uW55_qxHwfkJXzl9NzA2OwIy1qkB3L9oq0LXVTpBwLjVQn7FN5z0vbod1eHGdkoMA47_dE4dsQzBWUwHz0zYpdI1zNvxVevcF2M0e7siOTzLSwNSb930BbsGtEpOxwaXBg3W98tBLn5QJ-JNxRzkFyb5faABO_lLJR_z6iKmGfLuauOWGZNNfn-9rTk5uzXMbN0aSov9lMnNNrFAIf7b0jf_Sjfj0ufflAmwEL1V-zhD3LeSDP2f9MLQKEZ2ONA9U77_s1fN4RWc0J7fNwQBt346A7zlyAo0Xh7alfMF9X5FoBIoEzcqMEjjnCzmIikIjaFRFMpNOvEDFexSd6uTPvNBWagVqSIVIbqdKQk0CNz5_1IXNR7IDCt4kF_3XlGh5w4WlEKE=w542-h637-no"
 },
 {
   "firstName": "Pok Tik Benjamin",

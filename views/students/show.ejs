@@ -2,36 +2,45 @@
 
 
 <div id="info">
-    <h1><%= result.firstName %> - <%= result.title %></h1>
+    <h1><%= student.firstName %> - <%= student.title %></h1>
     <div>
-      <img src="<%= result.image%> " alt="<%= result.firstName %>">
+      <img src="<%= student.image%> " alt="<%= student.firstName %>">
     </div>
-  <blockquote class="member_quote"><p><%= result.favoriteQuote %></p></blockquote>
+  <blockquote class="member_quote"><p><%= student.favoriteQuote %></p></blockquote>
   <div class="member_whySoftwareDeveloper">
     <h3>I love software developer because:</h3>
-    <span><%= result.whySoftwareDeveloper %></span>
+    <span><%= student.whySoftwareDeveloper %></span>
   </div>
   <div class="member_longTermVision">
     <h3>Long term vision:</h3>
-    <span><%= result.longTermVision %></span>
+    <span><%= student.longTermVision %></span>
   </div>
   <div class="member_motivatesMe">
     <h3>What motivate me:</h3>
-    <span><%= result.motivatesMe %></span>
+    <span><%= student.motivatesMe %></span>
   </div>
   <div class="member_skills">
-    <% result.skills.forEach(skill => { %>
+    <% student.skills.forEach(skill => { %>
       <label class="skill">
         <%= skill %>
       </label>
    <% }) %>
   </div>
-  <div class="comments">
-    <% result.comments.forEach(comment=>{ %>
-      <p> <%= comment.author %> - <%= comment.text %> </p>
-    <% }) %>
+  
+  <a id="new-comment" class="btn btn-success" href="/student/<%= student._id %>/comments/new">Add new comment</a>
+  <div class="container">
+    <div class="card bg-light">
+      
+      <% student.comments.forEach(function(comment){ %>
+              <div class="col-md-12">
+                  <strong><%= comment.author %></strong>
+                  <p><%= comment.text %></p>
+              </div>
+      <% }) %>
+    </div>
   </div>
-  <button id='delete-button' data_id='<%= result._id %>'
+  
+  <button id='delete-button' data_id='<%= student._id %>'
           type="button" class="btn btn-danger">Delete student</button>
 </div>
 

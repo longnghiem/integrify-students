@@ -15,7 +15,7 @@ const seedDB = require('./seeds')
 seedDB();
 
 // put this on top of others
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // connect to DB while app.js is running
 const mongoose = require('mongoose');

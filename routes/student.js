@@ -2,6 +2,7 @@ const express = require("express")
 const router = express.Router()
 
 const Student = require('../models/student')
+const Comment = require('../models/comment')
 
 
 //specifying param
@@ -9,11 +10,11 @@ router.get('/:id', (req, res) => {
   const id = req.params.id;
   Student.findOne({_id : id})
          .populate("comments")
-         .exec((err, result) => {
+         .exec((err, student) => {
             if (err) return handleError(err)
             else {
-              console.log(result)
-              res.render('students/show', { result })
+              console.log(student)
+              res.render('students/show', { student })
             }
           })
   })
@@ -34,12 +35,26 @@ router.get("/:id/comments/new", (req,res)=>{
   Student.findOne({_id:id}, (err, student)=>{
     if (err) return handleError(err)
     else {
-      console.log('student', student)
       res.render('comments/new',{student})
     }
   })
 
-
+router.post("/:id/comments", (req, res) => {
+  Student.findById(req.params.id, (err, student)=>{
+    if (err) return handleError(err)
+    else {
+      console.log('req body comment: ', req.body.comment)
+      Comment.create(req.body.comment, (err, comment)=>{
+        if (err) return handleError(err)
+        else {
+          student.comments.push(comment)
+          student.save()
+          res.redirect("/student/" + req.params.id)
+        }
+      })
+    }
+  })
+})
   
 })
 

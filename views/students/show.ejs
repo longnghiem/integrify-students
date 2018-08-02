@@ -40,8 +40,9 @@
     </div>
   </div>
   
-  <button id='delete-button' data_id='<%= student._id %>'
-          type="button" class="btn btn-danger">Delete student</button>
+  <form action="/student/<%= student._id%>?_method=DELETE" method="POST">
+    <button class="btn btn-danger">Delete student</button>
+  </form>
 </div>
 
 <% include ../partials/footer %>

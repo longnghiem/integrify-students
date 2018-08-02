@@ -8,7 +8,7 @@ if (document.querySelector('#add-skill')) {
   };
 }
   
-if (document.querySelector('#delete-button')) {
+/* if (document.querySelector('#delete-button')) {
   document.querySelector('#delete-button').onclick = () => {
     const student_id = document.querySelector('#delete-button').getAttribute('data_id');
 
@@ -23,4 +23,4 @@ if (document.querySelector('#delete-button')) {
       }
     });
   };
-}
+} */

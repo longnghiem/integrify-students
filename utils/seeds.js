@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-const Student = require("./models/student")
-const Comment = require("./models/comment")
+const Student = require("../models/student")
+const Comment = require("../models/comment")
 const students = require("./data")
 
 const seedDB = () => {

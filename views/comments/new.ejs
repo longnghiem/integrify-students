@@ -1,7 +1,7 @@
 <% include ../partials/header %>
 <div class="container">
     <div class="row">
-        <h1 class="new-comment-header">Add New Comment to <%= student.firstName %></h1>
+        <h1 class="new-comment-header">Add a new comment to <%= student.firstName %></h1>
         <div style="width: 30%; margin: 25px auto;">
             <form action="/student/<%= student._id %>/comments" method="POST">
                 <div class="form-group">

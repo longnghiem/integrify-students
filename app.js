@@ -11,6 +11,7 @@ const indexRouter = require('./routes/index'),
       addStudentRouter = require('./routes/addStudent'),
       studentRouter = require('./routes/student'),
       registerRouter = require('./routes/register')
+      loginRouter = require('./routes/login')
 
 const User = require("./models/user")      
 
@@ -53,6 +54,7 @@ app.use('/addStudent', addStudentRouter);
 //do not specify params here, but in router.get
 app.use('/student', studentRouter);
 app.use('/register', registerRouter)
+app.use('/login', loginRouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
   Student.find({},(err, students) =>{
     if (err) {console.log("error: ", err)}
     else {
-      res.render('students/index', { students });
+      res.render('students/index', { students, currentUser: req.user });
     }
   })
 });

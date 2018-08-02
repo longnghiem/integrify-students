@@ -21,7 +21,7 @@ const app = express();
 const seedDB = require('./utils/seeds')
 seedDB();
 
-// put this on top of others
+// put this on top of other app.use
 app.use(bodyParser.urlencoded({ extended: true })); //use extended: true to enable bracket notation 
 app.use(methodOverride("_method"))
 
@@ -51,6 +51,14 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+//including currentUser: req.user in every view files rendered
+//put this before the routes
+app.use((req, res, next) => {
+  res.locals.currentUser = req.user;
+  next()
+})
+
+//ROUTES
 app.use('/', indexRouter);
 app.use('/index', indexRouter);
 app.use('/addStudent', addStudentRouter);
@@ -59,6 +67,7 @@ app.use('/student', studentRouter);
 app.use('/register', registerRouter)
 app.use('/login', loginRouter)
 app.use('/logout', logoutRouter)
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

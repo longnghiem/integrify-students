@@ -149,5 +149,6 @@ blockquote p::after {
 
 .img-thumbnail{
   height: 250px;
-  object-fit: cover
+  object-fit: cover;
+  margin-top: 1em; 
 }

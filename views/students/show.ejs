@@ -27,7 +27,7 @@
    <% }) %>
   </div>
   
-  <a id="new-comment" class="btn btn-success" href="/student/<%= student._id %>/comments/new">Add new comment</a>
+  <a id="new-comment" class="btn btn-success" href="/students/<%= student._id %>/comments/new">Add new comment</a>
   <div class="container">
     <div class="card bg-light">
       
@@ -40,7 +40,7 @@
     </div>
   </div>
   
-  <form action="/student/<%= student._id%>?_method=DELETE" method="POST">
+  <form action="/students/<%= student._id%>?_method=DELETE" method="POST">
     <button class="btn btn-danger">Delete student</button>
   </form>
 </div>

@@ -5,7 +5,7 @@
         <h1>Welcome to Integrify gallery</h1>
         <p>Check out our awesome students</p>
         <div>
-          <a href="/addStudent" class="btn btn-secondary bt-lg"> Add new student</a> 
+          <a href="/students/new" class="btn btn-secondary bt-lg"> Add new student</a> 
         </div>
       </div>
     </header>
@@ -14,7 +14,7 @@
      <% students.forEach(student =>{ %>
         <div class="col-md-3 col-sm-6">
           <div>
-            <a href="/student/<%=student._id%>">
+            <a href="/students/<%=student._id%>">
               <img src="<%= student.image %>" alt="<%= student.firstName %>" class="img-thumbnail">
               <div class="caption">
                 <h4><%= student.firstName %></h4>

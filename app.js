@@ -8,12 +8,9 @@ const createError = require('http-errors'),
       LocalStrategy = require("passport-local"),
       methodOverride = require("method-override")
 
-const indexRouter = require('./routes/index'),
-      addStudentRouter = require('./routes/addStudent'),
-      studentRouter = require('./routes/student'),
-      registerRouter = require('./routes/register')
-      loginRouter = require('./routes/login')
-      logoutRouter = require('./routes/logout')
+const studentRoutes = require("./routes/students"),
+      commentRoutes = require("./routes/comments"),
+      indexRoutes   = require("./routes/index")      
 
 const User = require("./models/user")      
 
@@ -59,15 +56,9 @@ app.use((req, res, next) => {
 })
 
 //ROUTES
-app.use('/', indexRouter);
-app.use('/index', indexRouter);
-app.use('/addStudent', addStudentRouter);
-//do not specify params here, but in router.get
-app.use('/student', studentRouter);
-app.use('/register', registerRouter)
-app.use('/login', loginRouter)
-app.use('/logout', logoutRouter)
-
+app.use("/", indexRoutes)
+app.use("/students", studentRoutes)
+app.use("/students/:id/comments", commentRoutes)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

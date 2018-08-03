@@ -5,8 +5,10 @@ The objective of this project is to build a simple gallery application for Integ
 
 * Users can: 
   - View all students on Home page.
-  - Add new student and delete student.
-  - Add new comment on each student's displaying page.
+  - Sign up with username and password.
+  - Log in and log out.
+  - Add new student and delete student while logging in.
+  - Add new comment on each student's displaying page while logging in.
 * MongoDB is used for storing all students' data.
 
 # Languages used

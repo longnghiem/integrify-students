@@ -1,7 +1,9 @@
+Live demo [here](https://peaceful-fortress-12582.herokuapp.com/students)
+
 # Project summary
 The objective of this project is to build a simple gallery application for Integrify' students.
 
-![page](https://user-images.githubusercontent.com/3630009/43525781-6a3accfe-95ab-11e8-94f8-ebfd20431f75.png)
+![page](https://user-images.githubusercontent.com/3630009/43804769-da04b9e2-9aa5-11e8-903a-dca65947ee47.png)
 
 * Users can: 
   - View all students on Home page.
@@ -9,7 +11,7 @@ The objective of this project is to build a simple gallery application for Integ
   - Log in and log out.
   - Add new student and delete student while logging in.
   - Add new comment on each student's displaying page while logging in.
-* MongoDB is used for storing all students' data.
+* mLab is used for storing all students' data.
 
 # Languages used
 * Html (ejs 2.5)
@@ -18,7 +20,7 @@ The objective of this project is to build a simple gallery application for Integ
 * Express 4.16
 * Mongoose 5.2
 
-# Getting started
+# Using the application locally
 Please make sure MongoDB has been installed on the machine first!
 
 Clone the project:
@@ -26,6 +28,14 @@ Clone the project:
 > git clone git@github.com:longnghiem/integrify-students.git
 > cd integrify-students
 > npm install
+```
+
+Then inside app.js, change the mongoose.connect URL into:
+```javascript
+mongoose.connect('mongodb://localhost:27017/Integrify', { useNewUrlParser: true })
+```
+
+```
 > npm start
 ```
 Please check localhost:3009 on browser to view the application.

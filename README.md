@@ -3,7 +3,7 @@ Live demo [here](https://peaceful-fortress-12582.herokuapp.com/students)
 # Project summary
 The objective of this project is to build a simple gallery application for Integrify' students.
 
-![page](https://user-images.githubusercontent.com/3630009/43804769-da04b9e2-9aa5-11e8-903a-dca65947ee47.png)
+![page](https://user-images.githubusercontent.com/3630009/43805571-f378a0e8-9aa8-11e8-9c7b-e4bd60a0dd18.png)
 
 * Users can: 
   - View all students on Home page.

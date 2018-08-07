@@ -24,7 +24,9 @@ app.use(methodOverride("_method"))
 
 // connect to DB while app.js is running
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/Integrify', { useNewUrlParser: true })
+/* mongoose.connect('mongodb://localhost:27017/Integrify', */ 
+mongoose.connect('mongodb://mikasa18:mikasa18@ds115442.mlab.com:15442/integrify', 
+{ useNewUrlParser: true })
 
 /* Passport configuration */
 app.use(require("express-session")({

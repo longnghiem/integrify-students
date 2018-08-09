@@ -57,6 +57,7 @@ app.use((req, res, next) => {
   next()
 })
 
+
 //ROUTES
 app.use("/", indexRoutes)
 app.use("/students", studentRoutes)
@@ -83,3 +84,4 @@ app.use(function(err, req, res, next) {
 
 
 module.exports = app;
+
